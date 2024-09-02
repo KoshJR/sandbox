@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="container">
       <div className="content-wrapper">
-        <Router>
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/grid" element={<Grid />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
-        </Router>
+      
       </div>
     </div>
   );
