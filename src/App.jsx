@@ -13,7 +13,7 @@ function App() {
       <div className="content-wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="grid" element={<Grid />} />
+            <Route path="/grid" element={<Grid />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
       </div>
