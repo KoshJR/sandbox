@@ -2,7 +2,7 @@
 
 const Grid = () => {
   return (
-    <div>Grid</div>
+    <div>Grid template</div>
   )
 }
 
