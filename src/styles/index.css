@@ -1,35 +1,38 @@
 @import url("null.css");
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
 }
 
-html, body, #root {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f5f5f5; /* Фоновий колір */
+html,
+body,
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 0 auto;
+  background-color: #f5f5f5; /* Фоновий колір */
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px; /* Максимальна ширина */
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  min-width: 1000px;
+  max-width: 1800px; /* Максимальна ширина */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content-wrapper {
-    width: 100%;
-    background: white; /* Основний колір фону для контенту */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для контенту */
-    border-radius: 8px; /* Закруглення кутів */
+  width: 100%;
+  background: white; /* Основний колір фону для контенту */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для контенту */
+  border-radius: 8px; /* Закруглення кутів */
 }
